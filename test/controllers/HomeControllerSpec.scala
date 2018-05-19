@@ -23,8 +23,10 @@ class HomeControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
 
       status(home) mustBe OK
       //contentType(home) mustBe Some("text/html")
-      contentAsString(home) must include ("X__")
+      //contentAsString(home) must include ("X__")
     }
+
+    
 
 
     "Test Hola Mundo ('Pilar') From Unit" in {
