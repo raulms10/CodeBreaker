@@ -1,4 +1,4 @@
-name := """Decimal2Romano"""
+name := """codebreaker-scala"""
 organization := "udea.edu.co"
 
 version := "1.0-SNAPSHOT"
