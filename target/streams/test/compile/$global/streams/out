@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/rantonio.martinez/Scala/decimal2romano/test/controllers/HomeControllerSpec.scala:43:5: Missing closing brace `}' assumed here[0m
-[0m[[0m[31merror[0m] [0m[0m    }[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/test/controllers/HomeControllerSpec.scala:21:8: ';' expected but 'val' found.[0m
+[0m[[0m[31merror[0m] [0m[0m+      val request = CSRFTokenHelper.addCSRFToken(FakeRequest(GET, "/codebreaker/7834"))[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/test/controllers/HomeControllerSpec.scala:22:8: ';' expected but 'val' found.[0m
+[0m[[0m[31merror[0m] [0m[0m+      val home = route(app, request).get[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

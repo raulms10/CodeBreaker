@@ -1,5 +1,5 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/decimal2romano/conf/logback.xml,/home/estudiantes/rantonio.martinez/Scala/decimal2romano/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/decimal2romano/conf/application.conf,/home/estudiantes/rantonio.martinez/Scala/decimal2romano/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/decimal2romano/conf/messages,/home/estudiantes/rantonio.martinez/Scala/decimal2romano/target/scala-2.12/classes/messages)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/decimal2romano/conf/routes,/home/estudiantes/rantonio.martinez/Scala/decimal2romano/target/scala-2.12/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/conf/logback.xml,/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/conf/application.conf,/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/conf/messages,/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/target/scala-2.12/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/conf/routes,/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/target/scala-2.12/classes/routes)[0m

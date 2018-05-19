@@ -17,7 +17,6 @@ class HomeControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
 
   "HomeController GET" should {
 
-
     "Test Hola Mundo ('Pilar') From Unit" in {
       val controller = new HomeController(stubControllerComponents())
       val r = controller.testHolaMundo("Pilar")

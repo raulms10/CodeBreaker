@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/estudiantes/rantonio.martinez/Scala/decimal2romano/conf/routes
-// @DATE:Sat Apr 14 09:27:20 COT 2018
+// @SOURCE:/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/conf/routes
+// @DATE:Sat May 19 08:34:31 COT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -28,6 +28,16 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:9
+    def codeBreakerService: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.codeBreakerService",
+      """
+        function(n0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "codebreaker/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[Int]].javascriptUnbind + """)("n", n0))})
+        }
+      """
+    )
+  
     // @LINE:8
     def dec2rom: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.dec2rom",
@@ -40,7 +50,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:11
+  // @LINE:12
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -48,7 +58,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
+    // @LINE:12
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

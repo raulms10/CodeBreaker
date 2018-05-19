@@ -3,6 +3,7 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
+import play.api.libs.json._
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -32,6 +33,12 @@ def testHolaMundo(nombre: String) :String = {
   var r = "Hola, ";
   r = r + nombre;
   return r;
+}
+
+def codeBreakerService(n: Int) = Action {
+    var r = codeBreaker(n)
+
+    Ok(Json.obj("valor" -> r))
 }
 
 def codeBreaker(n: Int) :String = {

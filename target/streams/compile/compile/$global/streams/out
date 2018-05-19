@@ -1,4 +1,8 @@
-[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/rantonio.martinez/Scala/decimal2romano/app/controllers/HomeController.scala:53:9: ')' expected but 'if' found.[0m
-[0m[[0m[31merror[0m] [0m[0m        if (nSecret.charAt(i).equals(nro.charAt(j)) && i == j){[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/rantonio.martinez/Scala/CodeBreaker/app/controllers/HomeController.scala:26:25: overloaded method value apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (block: => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (block: play.api.mvc.Request[play.api.mvc.AnyContent] => play.api.mvc.Result)play.api.mvc.Action[play.api.mvc.AnyContent] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [A](bodyParser: play.api.mvc.BodyParser[A])play.api.mvc.ActionBuilder[play.api.mvc.Request,A][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m  def dec2rom(n: Int) = Action {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
