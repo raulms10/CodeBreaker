@@ -1,8 +1,0 @@
-sbt run
-run test
-exit
-compile
-test
-exit
-run
-sbt test
