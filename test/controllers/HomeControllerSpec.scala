@@ -19,15 +19,12 @@ class HomeControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
 
     "Test service /codebreaker/5276" in {
       val controller = inject[HomeController]
-      val home = controller.index().apply(FakeRequest(GET, "/codebreaker/5276"))
+      val home = controller.codeBreakerService(5276).apply(FakeRequest(GET, "/codebreaker/5276"))
 
       status(home) mustBe OK
-      //contentType(home) mustBe Some("text/html")
-      //contentAsString(home) must include ("X__")
+      contentType(home) mustBe Some("application/json")
+      contentAsString(home) must include ("X__")
     }
-
-    
-
 
     "Test Hola Mundo ('Pilar') From Unit" in {
       val controller = new HomeController(stubControllerComponents())

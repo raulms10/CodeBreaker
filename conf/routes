@@ -4,7 +4,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET  /:n                           controllers.HomeController.codeBreakerService(n: Int)
+GET  /            controllers.HomeController.index()
 GET  /dec2rom/:n  controllers.HomeController.dec2rom(n: Int)
 GET  /codebreaker/:n  controllers.HomeController.codeBreakerService(n: Int)
 
