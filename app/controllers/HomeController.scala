@@ -41,6 +41,10 @@ def codeBreakerService(n: Int) = Action {
     Ok(Json.obj("valor" -> r))
 }
 
+def setKey(n: Int) ={
+  
+}
+
 def codeBreaker(n: Int) :String = {
   var nSecret = "5623"
   var nro = n.toString
