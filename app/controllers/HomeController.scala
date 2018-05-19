@@ -4,6 +4,9 @@ import javax.inject._
 import play.api._
 import play.api.mvc._
 import play.api.libs.json._
+import scala.util.Random
+import scala.collection.mutable.Set
+import java.util.ArrayList
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -19,6 +22,9 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
    * will be called when the application receives a `GET` request with
    * a path of `/`.
    */
+
+  var nSecret = "" 
+
   def index() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.index())
   }
@@ -42,11 +48,35 @@ def codeBreakerService(n: Int) = Action {
 }
 
 def setKey(n: Int) ={
+  nSecret = n.toString
+}
+
+def createKey() :String = {
+  //ramdom
+  /*var digitos = new ArrayList()
+  var i = 0
+  for (i <- 0 to 9){
+    digitos.add()
+  }
+  var cG = Random
   
+  var d = ""
+  for (i <- 0 to 3){
+    var ran:Int = cG.nextInt(digitos.size)
+    var arr = digitos.get(2)
+    d = d + arr[ran]
+    digitos.remove(ran)
+  }
+
+  println(d)*/
+
+  return "5632"
 }
 
 def codeBreaker(n: Int) :String = {
-  var nSecret = "5623"
+  if (nSecret == ""){
+    nSecret = createKey()
+  }
   var nro = n.toString
   var listResult = List("")
   var r = "";
